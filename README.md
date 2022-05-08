@@ -18,5 +18,5 @@ SSH into your DSM and run this command.
 
 ```
 sudo mkdir /root/.ssh
-sudo docker run -d --restart=always --net=host -v /root/.ssh/:/root/.ssh/ --name open-vm-tools yalewp/xpenology-open-vm-tools
+sudo docker run -d --restart=always --net=host -v /root/.ssh/:/root/.ssh/ --name open-vm-tools crims0n/xpenology-open-vm-tools
 ```
